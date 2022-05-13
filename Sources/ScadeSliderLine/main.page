@@ -1,0 +1,73 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page backgroundImage="Assets/gradient_wallpaper_back.jpeg" name="main">
+    <children xsi:type="widgets:Label" text="Invested Amount: 15,000$" name="label1" horizontalAlignment="CENTER">
+      <font fontFamily="AppleGothic" size="26">
+        <color Red="253" Green="252" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.0" target="/0"/>
+      </layoutData>
+      <location x="26" y="195"/>
+      <size width="362" height="38"/>
+      <contentSize width="337" height="32"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Current Amount" name="label2" horizontalAlignment="CENTER">
+      <font fontFamily="AppleGothic" size="26">
+        <color Red="253" Green="252" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.1" target="/0"/>
+      </layoutData>
+      <location x="43" y="488"/>
+      <size width="328" height="60"/>
+      <contentSize width="192" height="32"/>
+    </children>
+    <children xsi:type="widgets:Label" text="17250$" name="label_current_amount" horizontalAlignment="CENTER">
+      <font fontFamily="AppleGothic" size="36">
+        <color Red="253" Green="252" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.2" target="/0"/>
+      </layoutData>
+      <location x="16" y="552"/>
+      <size width="383" height="71"/>
+      <contentSize width="147" height="44"/>
+    </children>
+    <children xsi:type="widgets:SliderLine" position="15" name="sliderLine">
+      <location x="24" y="317"/>
+      <size width="367" height="47"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.3" target="/0"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:Label" text="Investment Calculator" name="label" horizontalAlignment="CENTER">
+      <font fontFamily="AppleGothic" size="27">
+        <color Red="253" Green="252" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.4" target="/0"/>
+      </layoutData>
+      <location x="39" y="64"/>
+      <size width="336" height="42"/>
+      <contentSize width="267" height="33"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Rate of Returns : 15%" name="label_return">
+      <font fontFamily="Apple Symbols" size="28">
+        <color Red="253" Green="252" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="HEIGHT" constant="25" source="/0/@children.5"/>
+      </layoutData>
+      <location x="46" y="379"/>
+      <size width="225" height="25"/>
+      <contentSize width="225" height="26"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="414" height="736"/>
+    <location/>
+    <minArea width="414" height="736"/>
+    <size width="414" height="736"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>

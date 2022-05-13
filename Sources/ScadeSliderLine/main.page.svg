@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scade="http://www.scade.io/v0.1" widget-name="main" eObject-URI="main.page#/0" width="414" height="736">
+  <image template-id="background" width="100%" height="100%" xlink:href="Assets/gradient_wallpaper_back.jpeg" preserveAspectRatio="xMidYMid slice" />
+  <g template-id="content">
+    <svg eObject-URI="main.page#/0/@children.0" widget-name="label1" x="26" y="195" width="362" height="38">
+      <g template-id="content">
+        <text text-anchor="middle" alignment-baseline="central" font-size="26" font-family="AppleGothic" font-style="normal" text-decoration="none" template-id="node-text" x="181" y="19" fill="#fdfcff">Invested Amount: 15,000$</text>
+      </g>
+    </svg>
+    <svg eObject-URI="main.page#/0/@children.1" widget-name="label2" x="43" y="488" width="328" height="60">
+      <g template-id="content">
+        <text text-anchor="middle" alignment-baseline="central" font-size="26" font-family="AppleGothic" font-style="normal" text-decoration="none" template-id="node-text" x="164" y="30" fill="#fdfcff">Current Amount</text>
+      </g>
+    </svg>
+    <svg eObject-URI="main.page#/0/@children.2" widget-name="label_current_amount" x="16" y="552" width="383" height="71">
+      <g template-id="content">
+        <text text-anchor="middle" alignment-baseline="central" font-size="36" font-family="AppleGothic" font-style="normal" text-decoration="none" template-id="node-text" x="191.5" y="35.5" fill="#fdfcff">17250$</text>
+      </g>
+    </svg>
+    <svg eObject-URI="main.page#/0/@children.3" widget-name="sliderLine" x="24" y="317" width="367" height="47">
+      <g template-id="content">
+        <g transform="matrix(1 0 0 1 20 0)">
+          <rect template-id="node-line" x="14" y="20.5" width="339" height="6" fill="#b5b6b5" />
+          <rect template-id="node-fill" x="14" y="20.5" width="50.85" height="6" fill="#7aff" />
+          <svg template-id="node-bullet" x="50.85" y="9.5" width="28" height="28">
+            <ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="#ffffff" stroke="#dbdbdb" />
+          </svg>
+        </g>
+      </g>
+    </svg>
+    <svg eObject-URI="main.page#/0/@children.4" widget-name="label" x="39" y="64" width="336" height="42">
+      <g template-id="content">
+        <text text-anchor="middle" alignment-baseline="central" font-size="27" font-family="AppleGothic" font-style="normal" text-decoration="none" template-id="node-text" x="168" y="21" fill="#fdfcff">Investment Calculator</text>
+      </g>
+    </svg>
+    <svg widget-name="label_return" eObject-URI="main.page#/0/@children.5" x="46" y="379" width="225" height="25">
+      <g template-id="content">
+        <text alignment-baseline="central" font-size="28" font-family="Apple Symbols" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="12.5" fill="#fdfcff">Rate of Returns : 15%</text>
+      </g>
+    </svg>
+  </g>
+</svg>
